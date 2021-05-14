@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 3.11)
 
-project(CmakeHello VERSION 1.9 DESCRIPTION "Building an example cmake project")
+project(
+    CmakeHello 
+    VERSION 1.0 
+    DESCRIPTION "Building an example cmake project"
+    LANGUAGES CXX)
 
 add_subdirectory(hello)
 add_subdirectory(apps)
